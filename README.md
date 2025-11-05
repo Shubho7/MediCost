@@ -1,0 +1,1 @@
+A medical insurance price prediction machine learning model that will estimate the medical insurance premium amount.
