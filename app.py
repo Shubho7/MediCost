@@ -119,7 +119,7 @@ if model is not None:
     # Predict button
     if st.button("Predict Premium ➡️", use_container_width = True):
         # Prepare input data
-        input_data = np.array([[int(age), float(bmi), smoker_binary, int(children)]], dtype=np.float64)
+        input_data = np.array([[int(age), float(bmi), int(children), smoker_binary]], dtype=np.float64)
         
         # Make prediction
         try:
