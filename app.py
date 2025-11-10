@@ -68,7 +68,7 @@ model = load_model()
 
 # Header section
 st.title("🏥 MEDICAL INSURANCE PREMIUM PRICE PREDICTOR")
-st.markdown("### Get an instant estimate of your medical insurance premiums")
+st.markdown("#### Get an instant estimate of your medical insurance premiums💲")
 st.markdown("---")
 
 # Input section
